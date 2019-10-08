@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/799d6886-e33b-4700-8480-696f84f10a7f/resourceGroups/deepakaneja-rg/providers/Microsoft.Web/sites/WebAppNameDA",
+    "appService.deploySubpath": "dist\\HelloWorldApp"
+}
