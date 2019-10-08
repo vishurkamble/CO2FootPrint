@@ -13,6 +13,7 @@ import { PaymentgatewayComponent } from './paymentgateway/paymentgateway.compone
 import { BuyComponent } from './buy/buy.component';
 import { SellComponent } from './sell/sell.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { ErrorComponent } from './error/error.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     PaymentgatewayComponent,
     BuyComponent,
     SellComponent,
-    DashboardComponent
+    DashboardComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,
