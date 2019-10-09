@@ -18,7 +18,16 @@ export const ContactUsData = {
 }
 export class Constant{
     private userType : string[] = ["Individual","Small Business","Large Buisness","Product Based"];
+    private year : string[] = ["2020","2021","2022","2023","2024","2025","2026","2027","2028","2029","2030","2031","2032","2033","2034","2035","2036","2037"];
+    private month : string[] = ["January","Februray","March","April","May","June","July","August","September","October","November","December"];
+   
     userTypeData(){
         return this.userType;
+    }
+    listYear(){
+        return this.year;
+    }
+    listMonth(){
+        return this.month;
     }
 }
