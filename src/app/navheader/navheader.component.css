@@ -11,7 +11,7 @@
   font-size: 24px;
 }
 .shadow {
-  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  box-shadow: 0 19px 38px rgba(13, 182, 13, 0.7), 0 15px 12px rgba(48, 207, 83, 0.62);
 }
 
 .navbar-icon-top .navbar-nav .nav-link > .fa > .badge {
@@ -120,4 +120,40 @@
   .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link > .fa > .badge {
     top: -7px;
   }
+}
+button {
+  background: red;
+  border: 0;
+  font-size: 20px;
+  padding: 5px 20px;
+  position: relative;
+  animation-name: shake;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  cursor: pointer;
+
+  animation-name: shakeAnim;
+}
+
+@keyframes shakeAnim {
+  0% {left: 0}
+  1% {left: -3px}
+  2% {left: 5px}
+  3% {left: -8px}
+  4% {left: 8px}
+  5% {left: -5px}
+  6% {left: 3px}
+  7% {left: 0}
+}
+
+@keyframes shake {
+  0% {left: 0}
+  1% {left: -3px}
+  2% {left: 5px}
+  3% {left: -8px}
+  4% {left: 8px}
+  5% {left: -5px}
+  6% {left: 3px}
+  7% {left: 0}
 }

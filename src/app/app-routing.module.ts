@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { HomeComponent } from './home/home.component';
@@ -10,6 +10,7 @@ import { BuyComponent } from './buy/buy.component';
 import { SellComponent } from './sell/sell.component';
 import { ErrorComponent } from './error/error.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { MyRadarChartComponent } from './my-radar-chart/my-radar-chart.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
@@ -22,7 +23,8 @@ const routes: Routes = [
 {path:'payment',component:PaymentgatewayComponent},
 {path:'buy',component:BuyComponent},
 {path:'sell',component:SellComponent},
-{path:'error', component:ErrorComponent}
+{path:'error', component:ErrorComponent},
+{path:'chart',component:MyRadarChartComponent}
 ];
 
 @NgModule({

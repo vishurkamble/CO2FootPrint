@@ -14,7 +14,8 @@ import { BuyComponent } from './buy/buy.component';
 import { SellComponent } from './sell/sell.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ErrorComponent } from './error/error.component';
-
+import { ChartsModule } from 'ng2-charts';
+import { MyRadarChartComponent } from './my-radar-chart/my-radar-chart.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,12 +29,14 @@ import { ErrorComponent } from './error/error.component';
     BuyComponent,
     SellComponent,
     DashboardComponent,
-    ErrorComponent
+    ErrorComponent,
+    MyRadarChartComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
